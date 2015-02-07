@@ -179,6 +179,16 @@ background-color: transparent;
 
 }
 
+#contact_paragraph {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+#contact_web_link {
+  color: white;
+  text-decoration: underline;
+}
+
 .center-pills { 
     display: inline-block; 
 }
