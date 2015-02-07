@@ -101,6 +101,10 @@ background-color: transparent;
   display: block;
 }
 
+p.justificado {
+  text-align: justify;
+}
+
 #page-welcome header h1{
     margin: 0;
     padding: 0;
