@@ -97,6 +97,10 @@ background-color: transparent;
 
 }
 
+#career {
+  display: block;
+}
+
 #page-welcome header h1{
     margin: 0;
     padding: 0;
