@@ -29,11 +29,11 @@ $(document).ready(function(){
             queue: false
         }
     });
- 
+
     $('.grid-controls li a').click(function(){
         $('.grid-controls .current').removeClass('current');
         $(this).addClass('current');
- 
+
         var selector = $(this).attr('data-filter');
         $container.isotope({
             filter: selector,
@@ -50,7 +50,7 @@ $(document).ready(function(){
 
 /* Magnific Popup */
 $('.grid-wrapper').magnificPopup({
-		  delegate: 'a', 
+		  delegate: 'a',
 		  type: 'image',
 		  gallery:{
 			enabled:true
@@ -70,11 +70,11 @@ $(".navbar").sticky({topSpacing: 0});
         scrollThreshold: 0.5,
         scrollSpeed: 750,
         filter: "",
-        easing: "swing"	
+        easing: "swing"
      });
 
 /* Charts*/
-    
+
 $('.chart').waypoint(function() {
     $(this).easyPieChart({
     	   barColor: '#3498db',
@@ -91,14 +91,24 @@ $('.chart').waypoint(function() {
 
 
 /* VEGAS Home Slider */
-	
+
 		$.vegas('slideshow', {
 			  backgrounds:[
-				
-				{ src:'img/slider/01.jpg', fade:1000 },
-				{ src:'img/slider/02.jpg', fade:1000 },
-				{ src:'img/slider/03.jpg', fade:1000 },
-				{ src:'img/slider/04.jpg', fade:1000 }
+
+				{ src:'img/slider/1.jpg', fade:1000 },
+				{ src:'img/slider/2.jpg', fade:1000 },
+				{ src:'img/slider/3.jpg', fade:1000 },
+				{ src:'img/slider/4.jpg', fade:1000 },
+				{ src:'img/slider/5.jpg', fade:1000 },
+				{ src:'img/slider/6.jpg', fade:1000 },
+				{ src:'img/slider/7.jpg', fade:1000 },
+				{ src:'img/slider/8.jpg', fade:1000 },
+				{ src:'img/slider/9.jpg', fade:1000 },
+				{ src:'img/slider/10.jpg', fade:1000 },
+				{ src:'img/slider/11.jpg', fade:1000 },
+				{ src:'img/slider/12.jpg', fade:1000 },
+				{ src:'img/slider/13.jpg', fade:1000 },
+				{ src:'img/slider/14.jpg', fade:1000 }
 			  ]
 			})('overlay', {
 			  src:'img/overlays/16.png'
@@ -134,7 +144,7 @@ $('.chart').waypoint(function() {
             element.text('OK!').addClass('valid')
                 .closest('.control-group').removeClass('error').addClass('success');
         }
-    }); 
+    });
 
 
 
