@@ -108,7 +108,8 @@ $('.chart').waypoint(function() {
 				{ src:'img/slider/11.jpg', fade:1000 },
 				{ src:'img/slider/12.jpg', fade:1000 },
 				{ src:'img/slider/13.jpg', fade:1000 },
-				{ src:'img/slider/14.jpg', fade:1000 }
+				{ src:'img/slider/14.jpg', fade:1000 },
+				{ src:'img/slider/15.jpg', fade:1000 }
 			  ]
 			})('overlay', {
 			  src:'img/overlays/16.png'
